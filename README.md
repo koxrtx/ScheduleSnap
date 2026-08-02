@@ -56,7 +56,7 @@ Schedule Snap は、幼稚園・保育園・学校などから配布される予
 
 * AIが予定表の内容を解析し、予定を自動抽出
 * Googleカレンダーへワンクリックで登録
-* OCR（オーシーアール：Optical Character Recognition）による文字認識だけではなく、AIが予定内容を理解して整理
+* OCRによる文字認識だけではなく、AIが予定内容を理解して整理
 * 登録前に内容確認・編集が可能
 * 保育園・幼稚園・学校特有の予定にも対応
 
@@ -103,31 +103,31 @@ Schedule Snap は、幼稚園・保育園・学校などから配布される予
 バックエンド
 
 * Hono（ホノ）
-* TypeScript（タイプ スクリプト）
+* TypeScript
 
 AI
 
-* OpenAI API（オープンエーアイ エーピーアイ）
+* OpenAI API
     * 画像解析
     * 予定抽出
 
 データベース
 
-* PostgreSQL（ポストグレス キューエル）
+* PostgreSQL
 
 インフラ
 
-* Docker（ドッカー）
-* Vercel（ヴェルセル）
-* Cloud Run（クラウド ラン）※予定
+* Docker
+* Vercel
+* Cloud Run※予定
 
 認証
 
-* Google OAuth（グーグル オーオース）
+* Google OAuth
 
 外部API
 
-* Google Calendar API（グーグル カレンダー エーピーアイ）
+* Google Calendar API
 
 ⸻
 
